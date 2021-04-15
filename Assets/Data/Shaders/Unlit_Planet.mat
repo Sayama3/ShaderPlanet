@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_Planet
+  m_Shader: {fileID: 4800000, guid: c3aaa23fe9676424e8720c83822a8923, type: 3}
+  m_ShaderKeywords: _AUTOROTATION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CloudTex:
+        m_Texture: {fileID: 2800000, guid: 3984291cb13b3bc4ea084d0c8422154f, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e171689ee41940541a1c6d875230c42f, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 7b2a189b720e86b4e90a3e325e8eda38, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AutoRotation: 1
+    - _CloudSpeed: 0.06
+    - _CloudTransparency: 0.55
+    - _CollCount: 10
+    - _EarthRotationSpeed: 0.05
+    - _FresnelPower: 2
+    - _FresnelThreshold: 0.609
+    - _FresnelTreeshold: 0.512
+    - _SmoothY: 1
+    - _SunRotationSpeed: 0.315
+    m_Colors:
+    - _FresnelColor: {r: 0, g: 0.4056604, b: 0.3611173, a: 0.5686275}
+    - _ObjectPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
